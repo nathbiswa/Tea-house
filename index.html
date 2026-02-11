@@ -23,6 +23,9 @@
         * {
             font-family: "Manrope", sans-serif;
         }
+        img{
+            max-width: 100%;
+        }
     </style>
     <link rel="stylesheet" href="./tailwind.css">
 
@@ -139,7 +142,8 @@
             </div>
             <div class="client-right relative">
                 <!-- client review card -->
-                <div class="client-card bg-white p-6 w-[348px] rounded-md absolute space-y-1 top-[100px] -left-[10px] z-50">
+                <div
+                    class="client-card bg-white p-6 w-[348px] rounded-md absolute space-y-1 top-[100px] -left-[10px] z-50">
                     <p class="text-[#777777] font-[500]">We are providing the best and suitable home insurance
                         services for the people who are interested to treatment</p>
                     <h2 class="text-[30px] font-bold">Ilham Yuda</h2>
@@ -169,11 +173,41 @@
                     <div class="client-img bg-white rounded-full p-1 absolute -left-[30px] -top-[30px]">
                         <img src="./images/client.png" alt="">
                     </div>
-                    
+
                 </div>
             </div>
         </section>
-
+        <section class="news-letter container mx-auto py-[70px] ">
+            <div class="news-heading text-center ms:w-[400px] md:w-[800px] mx-auto">
+                <h1 class="font-semibold text-2xl">News & Events</h1>
+                <p class="text-[#777777] text-[500]">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form,
+                    by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+            <div class="news-cards grid grid-cols-1 md:grid-cols-3 gap-3 my-[20px] ">
+                <div class="news-card-items p-[10px] border border-[#D2D2D2] rounded-[10px] space-y-3">
+                    <img src="./images/news-1.png" alt="" class="ms:w-[100 !impormet]">
+                    <h4 class="text-[#777777] font-[400]">Feb 05, 2027</h4>
+                    <h2 class="font-bold text-[25px]">Collecting 8 points for discount</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="news-card-items p-[10px] border border-[#D2D2D2] rounded-[10px] space-y-3">
+                    <img src="./images/news-2.png" alt="">
+                    <h4 class="text-[#777777] font-[400]">Feb 05, 2027</h4>
+                    <h2 class="font-bold text-[25px]">Collecting 8 points for discount</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available.</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="news-card-items p-[10px] border border-[#D2D2D2] rounded-[10px] space-y-3">
+                    <img src="./images/news-3.png" alt="">
+                    <h4 class="text-[#777777] font-[400]">Feb 05, 2027</h4>
+                    <h2 class="font-bold text-[25px]">Collecting 8 points for discount</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available.</p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer></footer>
